@@ -1,0 +1,163 @@
+.hero-section {
+    background: url("th.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.card-img-custom {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.text-star {
+    color: rgb(12, 176, 126);
+}
+ul.list-unstyled a {
+    color: inherit;
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f7fd;
+    color: #2b405f;
+}
+
+.travel-section {
+    padding: 35px 0 45px;
+    background: #f2f7fd;
+}
+
+.section-heading {
+    margin-bottom: 28px;
+}
+
+.section-heading h2 {
+    color: #0875f9;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-heading p {
+    color: #65758d;
+    font-size: 16px;
+}
+
+.hotel-card {
+    border: none;
+    border-radius: 11px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(36, 84, 145, 0.1);
+}
+
+.hotel-image {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.hotel-card .card-body {
+    padding: 20px;
+}
+
+.hotel-card h5 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stars,
+.review-stars {
+    color: #ffb800;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.stars span {
+    color: #65758d;
+    font-size: 14px;
+}
+
+.hotel-card p {
+    font-size: 15px;
+    color: #506582;
+    line-height: 1.6;
+}
+
+.hotel-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.hotel-bottom strong {
+    color: #f21d43;
+    font-size: 18px;
+}
+
+.hotel-bottom .btn {
+    background: #0875f9;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+}
+
+.review-section {
+    border-top: 7px solid white;
+}
+
+.review-card {
+    background: white;
+    border-radius: 11px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(36, 84, 145, 0.08);
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.review-card h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.review-card p {
+    font-size: 15px;
+    font-style: italic;
+    color: #61738e;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+footer {
+    background: white;
+    color: #65758d;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+    .section-heading h2 {
+        font-size: 26px;
+    }
+
+    .hotel-image {
+        height: 210px;
+    }
+}
